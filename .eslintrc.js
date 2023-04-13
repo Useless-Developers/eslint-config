@@ -105,7 +105,7 @@ module.exports = {
         bracketSameLine: false,
         bracketSpacing: true,
         jsxSingleQuote: true,
-        printWidth: 120,
+        printWidth: 100,
         quoteProps: 'as-needed',
         semi: false,
         singleQuote: true,
