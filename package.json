@@ -1,8 +1,20 @@
 {
-  "name": "eslint-useless-config",
+  "name": "@useless-developers/eslint-config",
   "version": "0.0.4",
   "description": "For useless developers, by useless developers.",
   "main": "index.js",
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "typescript",
+    "eslint",
+    "config",
+    "prettier"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Useless-Developers/eslint-useless-config.git"
+  },
   "author": "Useless Developers",
   "license": "ISC",
   "peerDependencies": {
