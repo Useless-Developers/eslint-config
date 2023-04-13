@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-useless",
+  "version": "0.0.1",
+  "description": "For useless developers, by useless developers.",
+  "main": "index.js",
+  "author": "Useless Developers",
+  "license": "ISC",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=5.58",
+    "@typescript-eslint/parser": ">=5.58",
+    "eslint": ">=8.38",
+    "eslint-config-prettier": ">=8.8",
+    "eslint-import-resolver-alias": ">=1.1",
+    "eslint-import-resolver-typescript": ">=3.5",
+    "eslint-plugin-import": ">=2.27",
+    "eslint-plugin-jsdoc": ">=41.1",
+    "eslint-plugin-prettier": ">=4.2",
+    "eslint-plugin-react": ">=7.32",
+    "eslint-plugin-simple-import-sort": ">=10",
+    "eslint-plugin-sort-keys-fix": ">=1.1",
+    "eslint-plugin-tsdoc": ">=0.2",
+    "eslint-plugin-typescript-sort-keys": ">=2.3",
+    "prettier": ">=2.8",
+    "typescript": ">=5"
+  }
+}
