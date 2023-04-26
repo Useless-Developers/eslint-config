@@ -25,7 +25,14 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['@typescript-eslint', 'eslint-plugin-tsdoc', 'prettier', 'react', 'sort-keys-fix', 'typescript-sort-keys'],
+  plugins: [
+    '@typescript-eslint',
+    'eslint-plugin-tsdoc',
+    'prettier',
+    'react',
+    'sort-keys-fix',
+    'typescript-sort-keys',
+  ],
   root: true,
   rules: {
     '@typescript-eslint/ban-ts-comment': 0,
