@@ -89,6 +89,7 @@ module.exports = {
     'jsdoc/require-param-type': 0,
     'jsdoc/require-returns': 0,
     'jsdoc/require-returns-description': 0,
+    'jsdoc/tag-lines': [1, 'any', { startLines: 1 }],
     'jsx-quotes': [2, 'prefer-single'],
     'lines-between-class-members': 0,
     'new-parens': 2,
