@@ -57,6 +57,7 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 0,
     '@typescript-eslint/no-shadow': 2,
     '@typescript-eslint/no-var-requires': 0,
+    'arrow-body-style': [1, 'as-needed'],
     'arrow-parens': [2, 'as-needed'],
     camelcase: [1],
     'comma-dangle': [2, 'always-multiline'],
