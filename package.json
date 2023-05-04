@@ -1,6 +1,6 @@
 {
   "name": "@useless-developers/eslint-config",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "For useless developers, by useless developers.",
   "main": "index.js",
   "keywords": [
