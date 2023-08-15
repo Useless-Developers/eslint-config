@@ -10,8 +10,6 @@ module.exports = {
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:import/recommended',
-    'plugin:import/typescript',
     'plugin:jsdoc/recommended',
     'plugin:prettier/recommended',
     'plugin:react/recommended',
@@ -56,6 +54,13 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 2,
     '@typescript-eslint/no-non-null-assertion': 0,
     '@typescript-eslint/no-shadow': 2,
+    '@typescript-eslint/no-unused-vars': [
+      1,
+      {
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
+      },
+    ],
     '@typescript-eslint/no-var-requires': 0,
     'arrow-body-style': [1, 'as-needed'],
     'arrow-parens': [2, 'as-needed'],
@@ -64,19 +69,6 @@ module.exports = {
     curly: [0, 'multi-or-nest'],
     'import/namespace': 0,
     'import/no-unresolved': 0,
-    'import/order': [
-      2,
-      {
-        alphabetize: {
-          caseInsensitive: true,
-          order: 'asc',
-        },
-        groups: ['builtin', 'external', 'internal', ['parent', 'sibling', 'index']],
-        'newlines-between': 'always',
-        pathGroups: [{ group: 'internal', pattern: '@/**' }],
-        pathGroupsExcludedImportTypes: ['builtin'],
-      },
-    ],
     indent: 0,
     'jsdoc/match-description': [
       2,
@@ -146,25 +138,12 @@ module.exports = {
       },
     ],
     'react/no-multi-comp': 2,
+    'react/prop-types': 0,
     'react/self-closing-comp': 2,
     'require-await': 1,
     semi: [2, 'never'],
     'sort-keys-fix/sort-keys-fix': 1,
     'space-before-function-paren': [1, 'always'],
   },
-  settings: {
-    'import/resolver': {
-      alias: {
-        extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
-        map: [['@/', './src']],
-      },
-      typescript: {
-        project: '.',
-      },
-    },
-    react: {
-      version: 'detect',
-    },
-  },
 }
-```
+````
