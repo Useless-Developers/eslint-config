@@ -16,7 +16,7 @@
     "url": "git+https://github.com/useless-developers/eslint-config.git"
   },
   "author": "Useless Developers",
-  "license": "ISC",
+  "license": "GPLV3",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=5.58",
     "@typescript-eslint/parser": ">=5.58",
