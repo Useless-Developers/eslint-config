@@ -28,7 +28,7 @@
     "eslint-plugin-jsdoc": ">=46.6",
     "eslint-plugin-prettier": ">=5.0",
     "eslint-plugin-react": ">=7.33",
-    "eslint-plugin-sort-keys-fix": ">=1.2",
+    "eslint-plugin-sort-keys-fix": ">=1.1",
     "eslint-plugin-tsdoc": ">=0.2",
     "eslint-plugin-typescript-sort-keys": ">=3.0",
     "prettier": ">=3.0",
